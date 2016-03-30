@@ -1,28 +1,31 @@
 {
-    "name"             : "sz"
-  , "description"      : "Determine the size / dimensions of an image"
-  , "version"          : "0.0.5"
-  , "homepage"         : "https://github.com/rvagg/node-sz"
-  , "authors"          : [
-        "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)"
-    ]
-  , "keywords"         : [ "image", "size", "canvas" ]
-  , "main"             : "./sz.js"
-  , "repository"       : {
-        "type"             : "git"
-      , "url"              : "https://github.com/rvagg/node-sz.git"
-    }
-  , "dependencies"     : {
-    }
-  , "peerDependencies" : {
-        "canvas"           : "~1.1.2"
-    }
-  , "devDependencies"  : {
-        "tap"              : "*"
-      , "canvas"           : "~1.1.2"
-    }
-  , "scripts"          : {
-        "test"             : "node ./test.js"
-    }
-  , "license"          : "MIT"
+  "name": "sz",
+  "description": "Determine the size / dimensions of an image",
+  "version": "0.0.5",
+  "homepage": "https://github.com/rvagg/node-sz",
+  "authors": [
+    "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)"
+  ],
+  "keywords": [
+    "image",
+    "size",
+    "canvas"
+  ],
+  "main": "./sz.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rvagg/node-sz.git"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "canvas": "~1.1.2"
+  },
+  "devDependencies": {
+    "canvas": "~1.1.2",
+    "tap": "5.7.0"
+  },
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "license": "MIT"
 }
